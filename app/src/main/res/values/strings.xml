@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GeofenceGunSafety</string>
+    <string name="title_activity_maps">Map</string>
+
+        <string name="Lock">Lock Gun</string>
+    <string name="unlocked">Unlock Gun</string>
+    <string name="connectBT">Connect to Bluetooth Module</string>
+    <string name="locktext">Lock State: LOCKED</string>
+    <string name="unlocktext">Lock State: LOCKED</string>
+
+
+</resources>

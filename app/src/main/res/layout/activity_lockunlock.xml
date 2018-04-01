@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/activity_lockunlock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                xmlns:tools="http://schemas.android.com/tools"
+                tools:context=".lockUnlock">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/locked_icon"
+        android:layout_marginBottom="248dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:adjustViewBounds="false"
+        android:id="@+id/lock_state_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lock State: LOCKED"
+        android:layout_marginBottom="179dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lock_state_text" />
+
+    <Button
+        android:text="Connect to Bluetooth Module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bluetooth_connect_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        android:text="Lock Gun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bluetooth_connect_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/lock_state_btn" />
+
+    <Button
+        android:text="Unlock Gun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lock_state_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/unlock_state_btn" />
+
+
+</RelativeLayout>

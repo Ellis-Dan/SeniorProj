@@ -1,0 +1,40 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/map"
+          android:name="com.google.android.gms.maps.SupportMapFragment"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          tools:context="ellisd.com.geofencegunsafety.MapsActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentRight="true">
+
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/verticalSeekbar"
+                android:progress="12"
+                android:max="15"
+                android:splitTrack="false"
+                app:seekBarRotation="CW270"
+                />
+            </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+        </RelativeLayout>
+    <Button
+        android:text="Connect to Bluetooth Module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bluetooth_connect_btn"
+
+        android:layout_marginBottom="11dp" />
+
+    </fragment>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "52493875630",
+    "firebase_url": "https://gungeofence.firebaseio.com",
+    "project_id": "gungeofence",
+    "storage_bucket": "gungeofence.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52493875630:android:ea9f50911c76bd78",
+        "android_client_info": {
+          "package_name": "ellisd.com.geofencegunsafety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52493875630-rpkort98dvbuf4ob95e7rafv9abhdje4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ellisd.com.geofencegunsafety",
+            "certificate_hash": "cb22dc3707579662e46499f0bdc8614ee0b3d96b"
+          }
+        },
+        {
+          "client_id": "52493875630-7nropq29on0iv6igpdqji2r3vmqq2hem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhkYNHg4KBZfMWvZ-D4b_DMZ0y5QmiYfM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52493875630-7nropq29on0iv6igpdqji2r3vmqq2hem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
